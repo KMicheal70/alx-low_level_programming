@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE, cp ${CFILE%.*}.o 
+ gcc -c $CFILE; cp $CFILE ${CFILE%.*}.o 
