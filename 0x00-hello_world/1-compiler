@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $CFILE | tr ".c" ".o"| touch < gcc -c $CFILE
+gcc -c $CFILE, cp ${CFILE%.*}.o 
