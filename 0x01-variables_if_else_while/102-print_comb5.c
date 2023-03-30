@@ -5,32 +5,23 @@
  */
 int main(void)
 {
-	int i;
-	int x;
-	int z;
-	int c;
+	int p, q;
 
-	for (i = 48; i < 58; i++)
+	for (p = 0; p <= 98; p++)
 	{
-		for (x = 48; x < 58; x++)
+		for (q = p + 1; q <= 99; q++)
 		{
-			for (z = i; z < 58; z++)
+			putchar((p / 10) + '0');
+			putchar((p % 10) + '0');
+			putchar(' ');
+			putchar((q / 10) + '0');
+			putchar((q % 10) + '0');
+			if (p == 98 && q == 99)
 			{
-				for (c = x + 1; c < 58; c++)
-				{
-				putchar(i);
-				putchar(x);
-				putchar(32);
-				putchar(z);
-				putchar(c);
-				if (i == 57 && x == 56)
-				{
-					break;
-				}
-				putchar(44);
-				putchar(32);
-				}
+				break;
 			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar(10);
