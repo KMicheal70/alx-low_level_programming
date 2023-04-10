@@ -14,16 +14,16 @@ void jack_bauer(void)
 	four = '9';
 	for (i = '0'; i < '3'; i++)
 	{
+		if (i == '2')
+		{
+			four = '4';
+		}
 		for (x = '0'; x < four; x++)
 		{
 			for (y = '0'; y < '6'; y++)
 			{
 				for (z = '0'; z <= '9'; z++)
 				{
-					if (i == 2)
-					{
-						four = '4';
-					}
 					_putchar(i);
 					_putchar(x);
 					_putchar(':');
