@@ -30,4 +30,5 @@ int main(void)
 		x = z;
 	}
 	printf("\n");
+	return (0);
 }
