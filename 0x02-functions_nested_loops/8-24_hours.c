@@ -9,16 +9,16 @@ void jack_bauer(void)
 	int x;
 	int y;
 	int z;
-	int four;
+	int three;
 
-	four = '9';
+	three = '9';
 	for (i = '0'; i < '3'; i++)
 	{
 		if (i == '2')
 		{
 			four = '4';
 		}
-		for (x = '0'; x < four; x++)
+		for (x = '0'; x <= three; x++)
 		{
 			for (y = '0'; y < '6'; y++)
 			{
