@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include "main.h"
-/* main - entry point
- * File: 101-natural.c
- * */
+/**
+ * main - Entry point
+ *
+ * Description: 'sum of all multiples of 3, 5 , and 9'
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int i;
@@ -17,4 +21,5 @@ int main(void)
 		}
 	}
 	printf("%d", sum);
+	return (0);
 }
