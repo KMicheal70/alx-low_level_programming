@@ -9,7 +9,7 @@ int _islower(int c)
 	int i;
 	int x;
 
-	x = 0;
+	x = 1;
 	for (i = 97; i < 123; i++)
 	{
 		if (c == i)
