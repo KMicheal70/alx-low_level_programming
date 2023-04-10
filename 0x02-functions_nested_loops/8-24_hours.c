@@ -11,7 +11,7 @@ void jack_bauer(void)
 	int z;
 	int four;
 
-	four = '9'
+	four = '9';
 	for (i = '0'; i < '3'; i++)
 	{
 		for (x = '0'; x < four; x++)
