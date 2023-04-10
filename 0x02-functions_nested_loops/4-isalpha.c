@@ -7,7 +7,6 @@
 int _isalpha(int c)
 {
 	int i;
-	int x;
 
 	for (i = 'A'; i < 'Z'; i++)
 	{
