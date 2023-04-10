@@ -7,19 +7,13 @@
 int _islower(int c)
 {
 	int i;
-	int x;
 
-	x = 1;
 	for (i = 97; i < 123; i++)
 	{
 		if (c == i)
 		{
-			x = 1;
-		}
-		else
-		{
-			x = 0;
+			return (1);
 		}
 	}
-	return (x);
+	return (0);
 }
