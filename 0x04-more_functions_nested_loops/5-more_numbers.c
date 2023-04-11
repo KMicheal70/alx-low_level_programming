@@ -21,7 +21,7 @@ void more_numbers(void)
 					_putchar(x);
 					limit = '4';
 				}
-				putchar(z);
+				_putchar(z);
 			}
 		}
 		_putchar('\n');
