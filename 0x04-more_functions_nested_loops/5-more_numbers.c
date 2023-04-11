@@ -9,7 +9,7 @@ void more_numbers(void)
 	int z;
 	char limit;
 
-	limit = '9'
+	limit = '9';
 	for (i = 0; i < 10; i++)
 	{
 		for (x = '0'; x < '2'; x++)
