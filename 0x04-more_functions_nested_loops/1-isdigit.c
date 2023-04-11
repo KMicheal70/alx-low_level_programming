@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *  _isupper - check if c is an uppercase letter or not
+ *  _isupper - check if c is a digit or not
  * @c: letter to check
- * Return: 1 if character is upper. 0 if otherwise
+ * Return: 1 if c is a digit. 0 if otherwise
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
 	int i;
 	for (i = '0'; i <= '9'; i++)
