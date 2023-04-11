@@ -12,17 +12,14 @@ int main(void)
 		if (i % 5 == 0 && i % 3 == 0)
 		{
 			printf("FizzBuzz");
-			continue;
 		}
 		else if (i % 5 == 0)
 		{
 			printf("Buzz");
-			continue;
 		}
 		else if (i % 3 == 0)
 		{
 			printf("Fizz");
-			continue;
 		}
 		else
 		{
@@ -33,7 +30,6 @@ int main(void)
 			break;
 		}
 		printf(" ");
-		
 	}
 	printf("\n");
 	return (0);
