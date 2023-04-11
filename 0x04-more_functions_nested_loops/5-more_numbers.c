@@ -19,7 +19,7 @@ void more_numbers(void)
 				if (x == '1')
 				{
 					_putchar(x);
-					limit = '4'
+					limit = '4';
 				}
 				putchar(z);
 			}
